@@ -62,7 +62,7 @@ collections: # A list of collections the CMS should be able to edit
           - {label: Image, name: image, widget: image}
           - {label: Heading, name: heading, widget: string}
           - {label: Description, name: description, widget: string}
-      - file: "site/content/values/_index.md"
+      - file: "site/content/members/_index.md"
         label: "Members Page"
         name: "members"
         fields:
@@ -74,5 +74,5 @@ collections: # A list of collections the CMS should be able to edit
             fields:
               - {label: Heading, name: heading, widget: string}
               - {label: Text, name: text, widget: text}
-              - {label: Title, name: text, widget: text}
+              - {label: Title, name: title, widget: text}
               - {label: Image, name: imageUrl, widget: image}
