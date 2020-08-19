@@ -1,20 +1,20 @@
 ---
-title: "Great coffee with a conscience"
-subtitle: Support sustainable farming while enjoying a cup
-image: /img/home-jumbotron.jpg
+title: "Linked Open Data Initiative"
+subtitle: 特定非営利活動法人リンクト・オープン・データ・イニシアティブ
+image: /img/lodi_main_bg.jpg
 blurb:
-    heading: Why Kaldi?
-    text: "Kaldi is the coffee store for everyone who believes that great coffee shouldn't just taste good, it should do good too. We source all of our beans directly from small scale sustainable farmers and make sure part of the profits are reinvested in their communities."
+    heading: つながるオープンデータ、”リンクト・データ”を推進します。
+    text: "リンクト・データとはウェブの標準技術をデータに応用することで、ウェブをグローバルなデータ空間”ウェブ・オブ・データ”にするムーブメントです。世界の研究プロジェクトによる研究データ、国や自治体によるオープンデータ、図書館データや博物館データなど、幅広い分野で活用されています。"
 intro:
-    heading: "What we offer"
-    text: "Kaldi is the ultimate spot for coffee lovers who want to learn about their java’s origin and support the farmers that grew it. We take coffee production, roasting and brewing seriously and we’re glad to pass that knowledge to anyone."
+    heading: "私たちの活動"
+    text: "私たちはリンクト・データの技術の研究と社会実装を推進します。メンバーの多くが、研究プロジェクトや国や自治体によるオープンデータの公開やデータ交換流通に関するプロジェクトに関わり、リンクト・データの技術の普及に努めています。"
 products:
-    - image: img/illustrations-coffee.svg
-      text: "We sell green and roasted coffee beans that are sourced directly from independent farmers and farm cooperatives. We’re proud to offer a variety of coffee beans grown with great care for the environment and local communities. Check our post or contact us directly for current availability."
-    - image: /img/illustrations-coffee-gear.svg
-      text: "We offer a small, but carefully curated selection of brewing gear and tools for every taste and experience level. No matter if you roast your own beans or just bought your first french press, you’ll find a gadget to fall in love with in our shop."
+    - image: img/lod_challenge.svg
+      text: "オープンデータを題材としたコンテスト“LODチャレンジ”の実施に協力しています。“LODチャレンジ”はリンクト・データの認知向上と関わる人々の交流、技術レベルの向上を促す目的で年に一度コンテストを実施しています。リンクト・オープン・データ・イニシアティブのメンバーも事務局として企画や運営に携わっています。"
+    - image: /img/dbpedia.svg
+      text: "Wikipediaをリンクト・データ化するプロジェクト、“DBpedia”。その日本語版の開発と運営をしています。DBpediaは世界中のあらゆる分野のデータをつなぐハブとして重要な役割を担っています。リンクト・オープン・データ・イニシアティブは、DBpediaのグローバルなコミュニティの中でオフィシャル言語チャーターとして登録して活動しています。"
 values:
-    heading: Our values
-    text: Coffee is an amazing part of human culture but it has a dark side too – one of colonialism and mindless abuse of natural resources and human lives. We want to turn this around and return the coffee trade to the drink’s exhilarating, empowering and unifying nature.
+    heading: ご相談はお気軽に
+    text: 「リンクト・データを公開したい」、「リンクト・データを扱うシステムを設計、実装したい」など、オープンデータに関する技術全般にわたって、コンサルティングのご依頼を受け付けています。お気軽にご相談ください。専門家がお手伝いいたします。
 ---
 

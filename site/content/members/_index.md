@@ -1,8 +1,9 @@
 ---
-title: "Values"
-image: /img/about-jumbotron.jpg
+title: "ボードメンバー紹介"
+image: /img/lodi_main_bg.jpg
 values:
-  - heading: "Shade-grown coffee"
+  - heading: "武田　英明"
+    title: "理事長／国立情報学研究所　教授"
     text: >
       Coffee is a small tree or shrub that grows in the forest
       understory in its wild form, and traditionally was grown
@@ -10,7 +11,8 @@ values:
       forest-like structure of shade coffee farms provides habitat for
       a great number of migratory and resident species.
     imageUrl: "/img/about-shade-grown.jpg"
-  - heading: "Single origin"
+  - heading: "大向　一輝"
+    title: "副理事長"
     text: >
       Single-origin coffee is coffee grown within a single known
       geographic origin. Sometimes, this is a single farm or a
@@ -18,7 +20,8 @@ values:
       the coffee is then usually the place it was grown to whatever
       degree available.
     imageUrl: "/img/about-single-origin.jpg"
-  - heading: "Sustainable farming"
+  - heading: "小林　巌生"
+    title: "副理事長／インフォ・ラウンジ株式会社　副社長"
     text: >
       Sustainable agriculture is farming in sustainable ways based on
       an understanding of ecosystem services, the study of
@@ -26,7 +29,8 @@ values:
       grows where and how it is grown are a matter of choice and
       careful consideration for nature and communities.
     imageUrl: "/img/about-sustainable-farming.jpg"
-  - heading: "Direct sourcing"
+  - heading: "加藤　文彦"
+    title: "理事"
     text: >
       We want to truly empower the communities that bring amazing
       coffee to you. That’s why we reinvest 20% of our profits into
@@ -34,7 +38,8 @@ values:
       grown. You can see the communities grow and learn more about
       coffee farming on our blog.
     imageUrl: "/img/about-direct-sourcing.jpg"
-  - heading: "Reinvest profits"
+  - heading: "小出　誠二"
+    title: "理事"
     text: >
       We want to truly empower the communities that bring amazing
       coffee to you. That’s why we reinvest 20% of our profits into
