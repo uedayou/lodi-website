@@ -1,7 +1,7 @@
 baseurl = "https://linkedopendata.jp/"
-languageCode = "en-us"
-languageLang = "en"
-title = "Homepage"
+languageCode = "ja"
+languageLang = "ja"
+title = "特定非営利活動法人リンクト・オープン・データ・イニシアティブ"
 
 # RSS, categories and tags disabled for an easy start
 # See configuration options for more details: 
