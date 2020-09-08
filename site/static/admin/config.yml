@@ -103,4 +103,5 @@ collections: # A list of collections the CMS should be able to edit
               - label: List
                 name: list
                 widget: list
-                fields: string
+                fields: 
+                  - {label: Text, name: text, widget: text}

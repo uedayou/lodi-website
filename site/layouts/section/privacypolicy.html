@@ -13,7 +13,7 @@
     {{ if .list }}
       <ol class="indent3 ml4 mt3" style="list-style-type: lower-roman;">
         {{ range .list }}
-          <li>{{ . }}</li>
+          <li>{{ .text }}</li>
         {{ end }}
       </ol>
     {{ end }}
