@@ -1,6 +1,7 @@
 ---
 title: "Contact"
-logo: /img/lodi_logo.svg
+image: /img/lodi_logo.svg
+image_alt: 特定非営利活動法人リンクト・オープン・データ・イニシアティブ
 values:
   - heading: ご相談はお気軽に
     text: >

@@ -42,17 +42,14 @@ collections: # A list of collections the CMS should be able to edit
         name: "contact"
         fields:
           - {label: Title, name: title, widget: string}
-          - {label: Logo, name: logo, widget: "image"}
+          - {label: Image, name: image, widget: image}
+          - {label: Image Alt, name: image_alt, widget: string}
           - label: Values
             name: values
             widget: list
             fields:
-              - label: Heading
-                name: heading
-                widget: string
-              - label: Text
-                name: text
-                widget: text
+              - {label: Heading, name: heading, widget: string}
+              - {label: Text, name: text, widget: text}
               - label: Table
                 name: table
                 widget: list
@@ -83,6 +80,18 @@ collections: # A list of collections the CMS should be able to edit
           - {label: Image, name: image, widget: image}
           - {label: Heading, name: heading, widget: string}
           - {label: Description, name: description, widget: string}
+          - label: Intro
+            name: intro
+            widget: list
+            fields:
+              - label: Blurbs
+                name: blurbs
+                widget: list
+                fields:
+                  - {label: "Image", name: "image", widget: "image"}
+                  - {label: "Link", name: "link", widget: "string"}
+                  - {label: "LinkPhrase", name: "linkPhrase", widget: "string"}
+                  - {label: "Text", name: "text", widget: "text"}
       - file: "site/content/members/_index.md"
         label: "Members Page"
         name: "members"
@@ -102,7 +111,6 @@ collections: # A list of collections the CMS should be able to edit
         name: "articlesincorporation"
         fields:
           - {label: Title, name: title, widget: string}
-          - {label: Styles, name: styles, widget: text}
           - {label: "Body", name: "body", widget: "markdown"}
       - file: "site/content/privacypolicy/_index.md"
         label: "Privacy Policy"
