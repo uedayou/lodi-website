@@ -42,9 +42,7 @@ collections: # A list of collections the CMS should be able to edit
         name: "contact"
         fields:
           - {label: Title, name: title, widget: string}
-          - {label: Logo, name: logo, widget: "object", fields: [
-              {label: "Image", name: "image", widget: image},
-              {label: "Alt", name: "alt", widget: "string"}]}
+          - {label: Logo, name: logo, widget: "image"}
           - label: Values
             name: values
             widget: list
