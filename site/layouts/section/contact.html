@@ -1,74 +1,48 @@
 {{ define "main" }}
 
 <div class="ph3 bg-off-white">
-	<div class="center mw6 pv3">
+  <div class="center mw6 pv3">
 
-		<img src="{{ .Params.logo }}" alt="特定非営利活動法人リンクト・オープン・データ・イニシアティブ" class="db w5 center pv4">
+    <img src="{{ .Params.logo.image }}" 
+      alt="{{ .Params.logo.alt }}" 
+      class="db w5 center pv4">
 
+    {{ range .Params.values }}
+      <h3 class="f4 b lh-title mv4">{{ .heading }}</h3>
+      <p>{{ .text }}</p>
+      {{ if .table }}
+        <table border="1" cellspacing="0" cellpadding="10" style="margin:0 0 30px 0">
+          <tbody>
+          {{ range .table }}
+            <tr>
+              <th width="120" nowrap="nowrap">
+                {{ .head | safeHTML }}
+              </th>
+              <td>
+                {{ .data | safeHTML }}
+              </td>
+            </tr>
+          {{ end }}
+          </tbody>
+        </table>
+      {{ end }}
 
-		<h3 class="f4 b lh-title mv4">ご相談はお気軽に</h3>
-		<p>
-			オープンデータやリンクト・データの技術に関するアドバイス、コンサルティングのご依頼を承っております。研究者、データサイエンティスト、エンジニアなど第一線で活躍する専門知識を持った多彩なメンバーが応対します。まずは、メールで概要をご連絡ください。
-		</p>
+      {{ range .steps }}
+        <div class="box1">
+          <h4>{{ .heading | safeHTML }}</h4>
+          <p>{{ .text | safeHTML }}</p>
+        </div>
+      {{ end }}
+    {{ end }}
 
-
-		<h3 class="f4 b lh-title mv4">活動に参加しませんか？</h3>
-
-		<p>特定非営利活動法人リンクト・オープン・データ・イニシアティブでは一緒に活動してくれる仲間を募集しています。</p>
-
-		<table border="1" cellspacing="0" cellpadding="10" style="margin:0 0 30px 0">
-		<tbody><tr>
-			<th width="120" nowrap="nowrap">正会員（一般会員）</th>
-			<td>年会費 ： 10,000円<br>
-			NPO法上の社員にあたり（議決権あり）、当法人の運営や事業に主体的に関わる個人が対象です。LODやオープンガバメントに関する最先端の事業に参加していただけます。</td>
-		</tr>
-		<tr>
-			<th nowrap="nowrap">賛助会員</th>
-			<td>年会費 ： 一口 50,000円<br>
-			当法人の理念に賛同し活動を支援してくださる法人や団体を募集しております。<br>賛助会員の方には当法人主催のイベントやセミナーでの割引等の特典をご用意いたします。</td>
-		</tr>
-		<tr>
-			<th nowrap="nowrap">振込み先</th>
-			<td>年会費は下記にお振り込みください。<br>なお、振り込み名義はできるだけ会員名と同一名義でお願いいたします。
-			<br>
-			三菱東京UFJ銀行神保町支店（店舗番号０１３）<br>
-		普通<br>
-		特定非営利活動法人リンクト・オープン・データ・イニシアティブ<br>
-		トクテイヒエイリカツドウホウジン　リンクトオープンデータイニシアテイブ<br>
-		口座番号：０４１９０６４
-			</td>
-		</tr>
-		</tbody></table>
-
-		<div class="box1">
-			<h4>STEP1：参加申込</h4>
-			<p>メールにてお申し込みください。</p>
-		</div>
-
-		<div class="box1">
-			<h4>STEP2：事務局からの連絡</h4>
-			<p>申込みを受理しましたら、メールにて連絡をいたします。</p>
-		</div>
-
-		<div class="box1">
-		<h4>STEP3： 年会費のお支払い</h4>
-			<p>年会費を下記の振り込み先にお振り込みください。</p>
-			<p>三菱東京UFJ銀行神保町支店（店舗番号０１３）<br>	普通<br>特定非営利活動法人リンクト・オープン・データ・イニシアティブ<br>トクテイヒエイリカツドウホウジン　リンクトオープンデータイニシアテイブ<br>口座番号：０４１９０６４</p>
-		</div>
-
-		<div class="box1">
-		<h4>STEP4： 手続き完了</h4>
-		<p>入金が確認できましたら登録完了です。</p>
-		</div>
-
-		<div class="flex-ns mv4">
-			{{ range .Params.contact_entries }}
-			<div>
-				<h4 class="f4 b lh-title mb2 primary">{{ .heading }}</h4>
-				<p>{{ .text }}</p>
-			</div>
-			{{ end }}
-		</div>
+    <div class="flex-ns mv4">
+      {{ range .Params.contact_entries }}
+      <div>
+        <h4 class="f4 b lh-title mb2 primary">{{ .heading }}</h4>
+        <p>{{ .text }}</p>
+      </div>
+      {{ end }}
+    </div>
 
 	</div>
 
